@@ -8,9 +8,23 @@ v3a=c(T,F,T)
 v4=1:10
 (v5=seq(1,10,2))   #( ) bracket outside for printing
 v4;v5;v1 #printing multiple vectors
+
 v4[c(2,3,5)] #selective printing
 v4[2:5]
 v4[-(2:5)]
 v4[v4>5]
 v1[v1>='B']
 v4[v1 %in% c('A','C')]
+v8 = 1:5
+names(v8)=c('Hi','By','Cy','ki','Ni')
+v8['hi']
+v8[2]
+#dataframe----
+dx=data.frame(rollno=c(1,2,3),name=c('Rohit','Lalit','Hiren'),course=c('MBa','MCA','CCS'),marks=floor(runif(3,65,100)))
+View(dx)
+dx=fix(dx)
+str(dx)#view datatype
+class(dx)#view datatype
+ls()#show variables in eviroment
+rm(list=ls())
+
