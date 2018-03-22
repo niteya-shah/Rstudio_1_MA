@@ -34,7 +34,10 @@ ls()#show variables in eviroment
 (mymatrix1=matrix(1:24,ncol = 4,byrow=TRUE))
 (mymatrix2=matrix(1:24,nrow=4))
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> bc1577517d637942b356c68e835f3e8cf6247dc7
 #array----
 (myarray=array(1:24,dim=c(4,3,2),dimnames=list(c('S1','S2','S3','s4'),c('Sub1','Sub2','Sub3'),c('Dept1','Dept2'))))
  
