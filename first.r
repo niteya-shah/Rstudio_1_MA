@@ -8,6 +8,7 @@ v3a=c(T,F,T)
 v4=1:10
 (v5=seq(1,10,2))   #( ) bracket outside for printing
 v4;v5;v1 #printing multiple vectors
+
 v4[c(2,3,5)] #selective printing
 v4[2:5]
 v4[-(2:5)]
