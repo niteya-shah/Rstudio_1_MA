@@ -25,6 +25,16 @@ View(dx)
 dx=fix(dx)
 str(dx)#view datatype
 class(dx)#view datatype
+#list----
+#rm(list=ls()) #remove global variables
+(mylist=list(1,dx,v4))
 ls()#show variables in eviroment
-rm(list=ls())
+#matrix----
+(mymatrix=matrix(1:24,ncol = 4))
+(mymatrix1=matrix(1:24,ncol = 4,byrow=TRUE))
+(mymatrix2=matrix(1:24,nrow=4))
 
+
+#array----
+(myarray=array(1:24,dim=c(4,3,2),dimnames=list(c('S1','S2','S3','s4'),c('Sub1','Sub2','Sub3'),c('Dept1','Dept2'))))
+ 
