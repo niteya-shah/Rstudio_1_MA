@@ -33,8 +33,14 @@ ls()#show variables in eviroment
 (mymatrix=matrix(1:24,ncol = 4))
 (mymatrix1=matrix(1:24,ncol = 4,byrow=TRUE))
 (mymatrix2=matrix(1:24,nrow=4))
-
-
 #array----
 (myarray=array(1:24,dim=c(4,3,2),dimnames=list(c('S1','S2','S3','s4'),c('Sub1','Sub2','Sub3'),c('Dept1','Dept2'))))
- 
+
+#factors----
+dx$gender=c('M','F','M')  # used to designate a identifier for each character value , this allows for easy understanding 
+dx
+View(dx)
+dx$gender=factor(dx$gender)
+str(dx)
+dx$gender=factor(dx$gender,ordered = TRUE,label=c('M','F')) # ordering factors according to the requirements 
+str(dx)
