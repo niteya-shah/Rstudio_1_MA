@@ -9,12 +9,13 @@ Groceries
 inspect(Groceries[1:5])  #view
 LIST(Groceries[1:5])  #another view
 #Lets Apply Apriori Algorithm
-frequentItems <- eclat (Groceries, parameter = list(supp = 0.0095, minlen= 1, maxlen = 15)) 
+frequentItems <- eclat (Groceries, parameter = list(supp = 0.005, minlen= 1, maxlen = 15)) 
 frequentItems
 inspect(frequentItems[1:5])
 
 ?eclat
 itemFrequencyPlot (Groceries,topN = 15,type="absolute")
+
 itemFrequencyPlot(Groceries, topN = 10)
 abline(h=0.2)
 
