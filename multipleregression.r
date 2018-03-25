@@ -81,3 +81,4 @@ plot(cbind(omni$promotion, residuals(mlrmodel1)))
 
 
 # RMSE
+
