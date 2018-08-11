@@ -6,10 +6,10 @@ library("ROAuth")
 download.file(url="http://curl.haxx.se/ca/cacert.pem",destfile="cacert.pem")
 
 #different for each account
-consumerKey="	IorE6VAmI5oyyLcCLeUVFPGxt"
-consumerSecret="UcwSWdWqgdJpJsbaYzR7U8JCUwyzJf7v3Br22WofWjjozuKW29"
-AccessToken="977802952734924801-50z2JEF5tw9WfxrjcttXBKc0QlZ6nCp"
-AccessTokenSecret="FkWaFW8yu4PLWV5NMlhdnwNRQk8YRcpuL1nryNuhYRcPa"
+consumerKey="uRDuync3BziwQnor1MZFBKp0x"
+consumerSecret="t8QPLr7RKpAg4qa7vth1SBsDvoPKawwwdEhNRjdpY0mfMMdRnV"
+AccessToken="14366551-Fga25zWM1YefkTb2TZYxsrx2LVVSsK0uSpF08sugW"
+AccessTokenSecret="3ap8BZNVoBhE2GaMGLfuvuPF2OrHzM3MhGuPm96p3k6Cz"
 
 #Commont for all accounts except the keys
 
